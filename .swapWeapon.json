@@ -1,0 +1,28 @@
+{
+    "usageCount": 191, 
+    "omitTrigger": false, 
+    "prompt": false, 
+    "description": "swapWeapon", 
+    "abbreviation": {
+        "wordChars": "[\\w]", 
+        "abbreviations": [], 
+        "immediate": false, 
+        "ignoreCase": false, 
+        "backspace": true, 
+        "triggerInside": false
+    }, 
+    "hotkey": {
+        "hotKey": "q", 
+        "modifiers": []
+    }, 
+    "modes": [
+        3
+    ], 
+    "showInTrayMenu": false, 
+    "filter": {
+        "regex": "Paintball Net - Google Chrome", 
+        "isRecursive": false
+    }, 
+    "type": "script", 
+    "store": {}
+}
