@@ -9,8 +9,12 @@ def send_command(commands):
         keyboard.send_keys("<enter>") # submit command   
     keyboard.send_keys("<escape>") #close chat/command prompt
 
+try:
+    enabled = store.get_global_value("enabled")
+except TypeError:
+    enabled = True #default setting
 
-if store.get_global_value("globalPause") == 1:  # passthrough hotkey if chat prompt is open
-    keyboard.send_keys("e")
+if enabled: 
+    send_command(["/get token & put token jacket"])  
 else:
-    send_command(["/get token","/put token jacket"])
+    keyboard.send_keys("e") # passthrough hotkey if disabled

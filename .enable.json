@@ -1,8 +1,8 @@
 {
-    "usageCount": 28, 
+    "usageCount": 120, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "globalRun", 
+    "description": "enable", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 

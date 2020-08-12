@@ -1,8 +1,8 @@
 {
-    "usageCount": 487, 
+    "usageCount": 827, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "globalPause", 
+    "description": "disable", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 

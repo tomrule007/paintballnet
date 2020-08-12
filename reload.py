@@ -9,8 +9,12 @@ def send_command(commands):
         keyboard.send_keys("<enter>") # submit command   
     keyboard.send_keys("<escape>") #close chat/command prompt
 
+try:
+    enabled = store.get_global_value("enabled")
+except TypeError:
+    enabled = True #default setting
 
-if store.get_global_value("globalPause") == 1:  # passthrough hotkey if chat prompt is open
-     keyboard.send_keys("r")
+if enabled:
+    send_command(["/reload"])  
 else:
-    send_command(["/reload"])
+    keyboard.send_keys("r") # passthrough hotkey if disabled
