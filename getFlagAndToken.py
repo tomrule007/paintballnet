@@ -15,6 +15,6 @@ except TypeError:
     enabled = True #default setting
 
 if enabled: 
-    send_command(["/get token & put token jacket"])  
+    send_command(["/1"]) # /alias 1 get token \& get flag \& put token jacket \& put flag jacket
 else:
-    keyboard.send_keys("e") # passthrough hotkey if disabled
+    keyboard.send_keys('e')

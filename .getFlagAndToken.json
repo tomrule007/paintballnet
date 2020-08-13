@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 161, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "token", 
+    "description": "getFlagAndToken", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -20,7 +20,7 @@
     ], 
     "showInTrayMenu": false, 
     "filter": {
-        "regex": "Paintball Net - Google Chrome", 
+        "regex": null, 
         "isRecursive": false
     }, 
     "type": "script", 
