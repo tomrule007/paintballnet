@@ -1,5 +1,5 @@
 {
-    "usageCount": 0, 
+    "usageCount": 685, 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -15,8 +15,8 @@
         "modifiers": []
     }, 
     "filter": {
-        "regex": null, 
-        "isRecursive": false
+        "regex": "Paintball Net - Google Chrome", 
+        "isRecursive": true
     }, 
     "type": "folder", 
     "showInTrayMenu": false

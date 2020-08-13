@@ -1,5 +1,5 @@
 {
-    "usageCount": 827, 
+    "usageCount": 996, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "disable", 
@@ -20,7 +20,7 @@
     ], 
     "showInTrayMenu": false, 
     "filter": {
-        "regex": "Paintball Net - Google Chrome", 
+        "regex": null, 
         "isRecursive": false
     }, 
     "type": "script", 
